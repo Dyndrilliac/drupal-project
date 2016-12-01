@@ -1,12 +1,14 @@
 {
-    "name": "drupal-composer/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer",
+    "name": "Dyndrilliac/drupal-project",
+    "description": "Project template for Drupal 8 projects with composer.",
     "type": "project",
     "license": "GPL-2.0+",
     "authors": [
         {
-            "name": "",
-            "role": ""
+            "name": "Matthew Boyette (Dyndrilliac)",
+            "email": "Dyndrilliac@gmail.com",
+            "homepage": "https://github.com/Dyndrilliac",
+            "role": "Maintainer"
         }
     ],
     "repositories": [
@@ -59,11 +61,11 @@
     },
     "extra": {
         "installer-paths": {
-            "www/core": ["type:drupal-core"],
-            "www/libraries/{$name}": ["type:drupal-library"],
-            "www/modules/contrib/{$name}": ["type:drupal-module"],
-            "www/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "www/themes/contrib/{$name}": ["type:drupal-theme"],
+            "html/core": ["type:drupal-core"],
+            "html/libraries/{$name}": ["type:drupal-library"],
+            "html/modules/contrib/{$name}": ["type:drupal-module"],
+            "html/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "html/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
         }
     }
