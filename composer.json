@@ -44,7 +44,8 @@
         "drupal/google_analytics": "^2.1",
         "drupal/layout_plugin": "^1.0@alpha",
         "drupal/bootstrap": "^3.1",
-        "drupal/openrestaurant": "^2.0@beta"
+        "drupal/openrestaurant": "^2.0@beta",
+        "drupal/address": "^1.0@RC"
     },
     "require-dev": {
         "behat/mink": "~1.7",
