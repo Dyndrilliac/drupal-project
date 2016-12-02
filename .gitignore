@@ -7,6 +7,7 @@ html/modules/custom
 html/themes/contrib
 html/themes/custom
 html/profiles/contrib
+composer.lock
 
 # Ignore Drupal settings
 html/sites/default/settings.php
