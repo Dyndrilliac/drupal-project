@@ -8,6 +8,7 @@
 /html/themes/contrib/
 /html/themes/custom/
 /html/profiles/contrib/
+/html/vendor/
 composer.lock
 
 # Ignore Drupal settings
