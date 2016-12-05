@@ -32,7 +32,6 @@
         "drupal/colorbox": "^1.2",
         "drupal/ctools": "^3.0@alpha",
         "drupal/ds": "^2.6",
-        "drupal/vcl": "^1.1",
         "drupal/php": "^1.0@beta",
         "drupal/ubercart": "^4.0@alpha",
         "drupal/token": "^1.0@beta",
