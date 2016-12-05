@@ -1,4 +1,4 @@
-# Composer template for Drupal projects
+# Composer template for Drupal 8 projects
 
 [![Build Status](https://travis-ci.org/Dyndrilliac/drupal-project.svg?branch=8.x)](https://travis-ci.org/Dyndrilliac/drupal-project)
 
@@ -20,15 +20,16 @@ for your setup.
 After that you can create the project:
 
 ```
-composer create-project Dyndrilliac/drupal-project:8.x-dev some-dir --stability dev --no-interaction
+git clone https://github.com/Dyndrilliac/drupal-project.git www
+cd www
+composer create-project --stability dev --no-interaction
 ```
 
-With `composer require ...` you can download new dependencies to your 
+With `composer require ... ` you can download new dependencies to your 
 installation.
 
 ```
-cd some-dir
-composer require drupal/devel:~1.0
+composer require drupal/devel --update-with-dependencies
 ```
 
 The `composer create-project` command passes ownership of all files to the 
