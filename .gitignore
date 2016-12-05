@@ -13,6 +13,7 @@ composer.lock
 
 # Ignore Drupal settings
 /html/sites/default/settings.php
+/html/sites/default/settings.local.php
 /html/sites/default/services.yml
 
 # Ignore Drupal's file directory
